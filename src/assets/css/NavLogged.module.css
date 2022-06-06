@@ -1,0 +1,627 @@
+.navContainer {
+  width: 100%;
+  height: 17.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 150px;
+}
+
+.navContainer > img {
+  height: 125px;
+  cursor: pointer;
+}
+
+.profileWrapper {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.bask {
+  position: absolute;
+  top: 90px;
+  right: 265px;
+}
+
+.stuff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  background: #bd0707;
+  color: white;
+  font-size: 0.85rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.basketImg,
+.chats {
+  height: 50px;
+  cursor: pointer;
+}
+
+.imgWrapper {
+  display: inline-block;
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  border: solid 3px #bd0707;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.imgWrapper > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50%;
+}
+
+@media only screen and (max-width: 1440px) {
+  .navContainer {
+    width: 100%;
+    height: 17.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 75px;
+  }
+
+  .navContainer > img {
+    height: 100px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .bask {
+    position: absolute;
+    top: 55px;
+    right: 155px;
+  }
+
+  .stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background: #bd0707;
+    color: white;
+    font-size: 0.85rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .basketImg,
+  .chats {
+    height: 45px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .navContainer {
+    width: 100%;
+    height: 17.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 50px;
+  }
+
+  .navContainer > img {
+    height: 100px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .bask {
+    position: absolute;
+    top: 55px;
+    right: 140px;
+  }
+
+  .stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background: #bd0707;
+    color: white;
+    font-size: 0.85rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .basketImg,
+  .chats {
+    height: 45px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .navContainer {
+    width: 100%;
+    height: 17.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 75px;
+  }
+
+  .navContainer > img {
+    height: 75px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .bask {
+    position: absolute;
+    top: 45px;
+    right: 155px;
+  }
+
+  .stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background: #bd0707;
+    color: white;
+    font-size: 0.75rem;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .basketImg,
+  .chats {
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navContainer {
+    width: 100%;
+    height: 17.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 50px;
+  }
+
+  .navContainer > img {
+    height: 75px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .bask {
+    position: absolute;
+    top: 42.5px;
+    right: 125px;
+  }
+
+  .stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background: #bd0707;
+    color: white;
+    font-size: 0.75rem;
+    width: 17.5px;
+    height: 17.5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .basketImg,
+  .chats {
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navContainer {
+    width: 100%;
+    height: 17.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 50px;
+  }
+
+  .navContainer > img {
+    height: 65px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .bask {
+    position: absolute;
+    top: 40px;
+    right: 122.5px;
+  }
+
+  .stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background: #bd0707;
+    color: white;
+    font-size: 0.75rem;
+    width: 17.5px;
+    height: 17.5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .basketImg,
+  .chats {
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navContainer {
+    width: 100%;
+    height: 17.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 35px;
+  }
+
+  .navContainer > img {
+    height: 65px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .bask {
+    position: absolute;
+    top: 40px;
+    right: 102.5px;
+  }
+
+  .stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background: #bd0707;
+    color: white;
+    font-size: 0.6rem;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .basketImg,
+  .chats {
+    height: 35px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navContainer {
+    width: 100%;
+    height: 12.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 35px;
+  }
+
+  .navContainer > img {
+    height: 65px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .bask {
+    position: absolute;
+    top: 40px;
+    right: 102.5px;
+  }
+
+  .stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background: #bd0707;
+    color: white;
+    font-size: 0.65rem;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .basketImg,
+  .chats {
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .navContainer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 35px;
+  }
+
+  .navContainer > img {
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .bask {
+    position: absolute;
+    top: 30px;
+    right: 97.5px;
+  }
+
+  .stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background: #bd0707;
+    color: white;
+    font-size: 0.6rem;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .basketImg,
+  .chats {
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}

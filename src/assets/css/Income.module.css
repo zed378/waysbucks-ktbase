@@ -1,0 +1,1106 @@
+.incomeBody {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 200px 100px 200px;
+}
+
+.incomeBody > h1 {
+  color: #bd0707;
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+}
+
+.noIncome {
+  width: 100%;
+  text-align: center;
+}
+
+.noIncome > img {
+  width: 30%;
+  height: auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid gray;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th {
+  background: #e5e5e5;
+  box-sizing: border-box;
+  padding: 7px 5px;
+}
+
+.five {
+  width: 5%;
+}
+
+.sfive {
+  width: 7.5%;
+}
+
+.ten {
+  width: 10%;
+}
+
+.fifteen {
+  width: 15%;
+}
+
+.twenty {
+  width: 20%;
+}
+
+td {
+  padding: 7px 5px;
+  word-wrap: break-word;
+  font-family: avenirs;
+}
+
+.numbers,
+.actionBtn,
+.postal,
+.payproof,
+.status {
+  text-align: center;
+}
+
+.modalPayment {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 9;
+}
+
+.modalPayment > img {
+  height: 65vh;
+  width: auto;
+}
+
+.income {
+  text-align: right;
+}
+
+.actionBtn > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7.5px;
+}
+
+.cancelBtn,
+.approveBtn {
+  width: 5rem;
+  font-family: avenir;
+  font-size: 0.75rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 2px 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.cancelBtn {
+  background: #ff0742;
+}
+
+.approveBtn {
+  background: #0acf83;
+}
+
+@media only screen and (max-width: 1440px) {
+  .incomeBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 75px 100px 75px;
+  }
+
+  .incomeBody > h1 {
+    color: #bd0707;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .noIncome {
+    width: 100%;
+    text-align: center;
+  }
+
+  .noIncome > img {
+    width: 35%;
+    height: auto;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid gray;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  th {
+    background: #e5e5e5;
+    box-sizing: border-box;
+    padding: 7px 5px;
+    font-size: 0.85rem;
+  }
+
+  .five {
+    width: 5%;
+  }
+
+  .ten {
+    width: 10%;
+  }
+
+  .fifteen {
+    width: 15%;
+  }
+
+  .twentyfive {
+    width: 25%;
+  }
+
+  td {
+    padding: 7px 5px;
+    word-wrap: break-word;
+    font-family: avenirs;
+    font-size: 0.85rem;
+  }
+
+  .numbers,
+  .actionBtn,
+  .postal,
+  .payproof,
+  .status {
+    text-align: center;
+  }
+
+  .modalPayment {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+  }
+
+  .modalPayment > img {
+    height: 75vh;
+    width: auto;
+  }
+
+  .income {
+    text-align: right;
+  }
+
+  .actionBtn > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .cancelBtn,
+  .approveBtn {
+    width: 5rem;
+    margin: 0 3px;
+    font-family: avenirs;
+    font-size: 0.75rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .cancelBtn {
+    background: #ff0742;
+  }
+
+  .approveBtn {
+    background: #04b471;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .incomeBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 50px 100px 50px;
+  }
+
+  .incomeBody > h1 {
+    color: #bd0707;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .noIncome {
+    width: 100%;
+    text-align: center;
+  }
+
+  .noIncome > img {
+    width: 30%;
+    height: auto;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid gray;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  th {
+    background: #e5e5e5;
+    box-sizing: border-box;
+    padding: 7px 5px;
+    font-size: 0.85rem;
+  }
+
+  .five {
+    width: 5%;
+  }
+
+  .ten {
+    width: 10%;
+  }
+
+  .fifteen {
+    width: 15%;
+  }
+
+  .twentyfive {
+    width: 25%;
+  }
+
+  td {
+    padding: 7px 5px;
+    word-wrap: break-word;
+    font-family: avenirs;
+    font-size: 0.85rem;
+  }
+
+  .numbers,
+  .actionBtn,
+  .postal,
+  .payproof,
+  .status {
+    text-align: center;
+  }
+
+  .modalPayment {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+  }
+
+  .modalPayment > img {
+    height: 70vh;
+    width: auto;
+  }
+
+  .income {
+    text-align: right;
+  }
+
+  .actionBtn > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+  }
+
+  .cancelBtn,
+  .approveBtn {
+    width: 5rem;
+    margin: 0 3px;
+    font-family: avenirs;
+    font-size: 0.75rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .cancelBtn {
+    background: #ff0742;
+  }
+
+  .approveBtn {
+    background: #04b471;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .incomeBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30px 100px 30px;
+  }
+
+  .incomeBody > h1 {
+    color: #bd0707;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .noIncome {
+    width: 100%;
+    text-align: center;
+  }
+
+  .noIncome > img {
+    width: 35%;
+    height: auto;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid gray;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  th {
+    background: #e5e5e5;
+    box-sizing: border-box;
+    padding: 7px 5px;
+    font-size: 0.75rem;
+  }
+
+  .five {
+    width: 5%;
+  }
+
+  .ten {
+    width: 10%;
+  }
+
+  .fifteen {
+    width: 15%;
+  }
+
+  .twentyfive {
+    width: 25%;
+  }
+
+  td {
+    padding: 7px 5px;
+    word-wrap: break-word;
+    font-family: avenirs;
+    font-size: 0.75rem;
+  }
+
+  .numbers,
+  .actionBtn,
+  .postal,
+  .payproof,
+  .status {
+    text-align: center;
+  }
+
+  .modalPayment {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+  }
+
+  .modalPayment > img {
+    height: 72.5vh;
+    width: auto;
+  }
+
+  .income {
+    text-align: right;
+  }
+
+  .actionBtn > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+  }
+
+  .cancelBtn,
+  .approveBtn {
+    width: 5rem;
+    margin: 0 3px;
+    font-family: avenirs;
+    font-size: 0.65rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .cancelBtn {
+    background: #ff0742;
+  }
+
+  .approveBtn {
+    background: #04b471;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .incomeBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 25px 100px 25px;
+  }
+
+  .incomeBody > h1 {
+    color: #bd0707;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .noIncome {
+    width: 100%;
+    text-align: center;
+  }
+
+  .noIncome > img {
+    width: 40%;
+    height: auto;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid gray;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  th {
+    background: #e5e5e5;
+    box-sizing: border-box;
+    padding: 7px 5px;
+    font-size: 0.75rem;
+  }
+
+  .five {
+    width: 5%;
+  }
+
+  .ten {
+    width: 10%;
+  }
+
+  .fifteen {
+    width: 15%;
+  }
+
+  .twentyfive {
+    width: 25%;
+  }
+
+  td {
+    padding: 7px 5px;
+    word-wrap: break-word;
+    font-family: avenirs;
+    font-size: 0.75rem;
+  }
+
+  .numbers,
+  .actionBtn,
+  .postal,
+  .payproof,
+  .status {
+    text-align: center;
+  }
+
+  .modalPayment {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+  }
+
+  .modalPayment > img {
+    height: 75vh;
+    width: auto;
+  }
+
+  .income {
+    text-align: right;
+  }
+
+  .actionBtn > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+  }
+
+  .cancelBtn,
+  .approveBtn {
+    width: 5rem;
+    margin: 0 3px;
+    font-family: avenirs;
+    font-size: 0.65rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .cancelBtn {
+    background: #ff0742;
+  }
+
+  .approveBtn {
+    background: #04b471;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .incomeBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px 50px 20px;
+  }
+
+  .incomeBody > h1 {
+    color: #bd0707;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .noIncome {
+    width: 100%;
+    text-align: center;
+  }
+
+  .noIncome > img {
+    width: 45%;
+    height: auto;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid gray;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  th {
+    background: #e5e5e5;
+    box-sizing: border-box;
+    padding: 7px 5px;
+    font-size: 0.65rem;
+  }
+
+  .five {
+    width: 5%;
+  }
+
+  .ten {
+    width: 10%;
+  }
+
+  .fifteen {
+    width: 15%;
+  }
+
+  .twentyfive {
+    width: 25%;
+  }
+
+  td {
+    padding: 7px 5px;
+    word-wrap: break-word;
+    font-family: avenirs;
+    font-size: 0.65rem;
+  }
+
+  .numbers,
+  .actionBtn,
+  .postal,
+  .payproof,
+  .status {
+    text-align: center;
+  }
+
+  .modalPayment {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+  }
+
+  .modalPayment > img {
+    height: 70vh;
+    width: auto;
+  }
+
+  .income {
+    text-align: right;
+  }
+
+  .actionBtn > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+  }
+
+  .cancelBtn,
+  .approveBtn {
+    width: 5rem;
+    margin: 0 3px;
+    font-family: avenirs;
+    font-size: 0.65rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .cancelBtn {
+    background: #ff0742;
+  }
+
+  .approveBtn {
+    background: #04b471;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .incomeBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px 50px 20px;
+  }
+
+  .incomeBody > h1 {
+    color: #bd0707;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .noIncome {
+    width: 100%;
+    text-align: center;
+  }
+
+  .noIncome > img {
+    width: 50%;
+    height: auto;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid gray;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  th {
+    background: #e5e5e5;
+    box-sizing: border-box;
+    padding: 7px 5px;
+    font-size: 0.65rem;
+  }
+
+  .five {
+    width: 5%;
+  }
+
+  .ten {
+    width: 10%;
+  }
+
+  .fifteen {
+    width: 15%;
+  }
+
+  .twentyfive {
+    width: 25%;
+  }
+
+  td {
+    padding: 7px 5px;
+    word-wrap: break-word;
+    font-family: avenirs;
+    font-size: 0.65rem;
+  }
+
+  .numbers,
+  .actionBtn,
+  .postal,
+  .payproof,
+  .status {
+    text-align: center;
+  }
+
+  .modalPayment {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+  }
+
+  .modalPayment > img {
+    height: 70vh;
+    width: auto;
+  }
+
+  .income {
+    text-align: right;
+  }
+
+  .actionBtn > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+  }
+
+  .cancelBtn,
+  .approveBtn {
+    width: 5rem;
+    margin: 0 3px;
+    font-family: avenirs;
+    font-size: 0.65rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .cancelBtn {
+    background: #ff0742;
+  }
+
+  .approveBtn {
+    background: #04b471;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .incomeBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px 50px 20px;
+  }
+
+  .incomeBody > h1 {
+    color: #bd0707;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .noIncome {
+    width: 100%;
+    text-align: center;
+  }
+
+  .noIncome > img {
+    width: 60%;
+    height: auto;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid gray;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+  }
+
+  th {
+    background: #e5e5e5;
+    box-sizing: border-box;
+    padding: 7px 5px;
+    font-size: 0.65rem;
+  }
+
+  .five {
+    width: 5%;
+  }
+
+  .ten {
+    width: 10%;
+  }
+
+  .fifteen {
+    width: 15%;
+  }
+
+  .twentyfive {
+    width: 25%;
+  }
+
+  td {
+    padding: 7px 5px;
+    word-wrap: break-word;
+    font-family: avenirs;
+    font-size: 0.65rem;
+  }
+
+  .numbers,
+  .actionBtn,
+  .postal,
+  .payproof,
+  .status {
+    text-align: center;
+  }
+
+  .modalPayment {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+  }
+
+  .modalPayment > img {
+    height: 55vh;
+    width: auto;
+  }
+
+  .income {
+    text-align: right;
+  }
+
+  .actionBtn > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+  }
+
+  .cancelBtn,
+  .approveBtn {
+    width: 5rem;
+    margin: 0 3px;
+    font-family: avenirs;
+    font-size: 0.65rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .cancelBtn {
+    background: #ff0742;
+  }
+
+  .approveBtn {
+    background: #04b471;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .incomeBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px 50px 20px;
+  }
+
+  .incomeBody > h1 {
+    color: #bd0707;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .noIncome {
+    width: 100%;
+    text-align: center;
+  }
+
+  .noIncome > img {
+    width: 80%;
+    height: auto;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid gray;
+  }
+
+  table {
+    width: auto;
+    border-collapse: collapse;
+    table-layout: auto;
+  }
+
+  th {
+    background: #e5e5e5;
+    box-sizing: border-box;
+    padding: 7px 5px;
+    font-size: 0.65rem;
+  }
+
+  .five {
+    width: 5%;
+  }
+
+  .ten {
+    width: 10%;
+  }
+
+  .fifteen {
+    width: 15%;
+  }
+
+  .twentyfive {
+    width: 25%;
+  }
+
+  td {
+    padding: 7px 5px;
+    word-wrap: break-word;
+    font-family: avenirs;
+    font-size: 0.65rem;
+  }
+
+  .numbers,
+  .actionBtn,
+  .postal,
+  .payproof,
+  .status {
+    text-align: center;
+  }
+
+  .modalPayment {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+  }
+
+  .modalPayment > img {
+    height: 55vh;
+    width: auto;
+  }
+
+  .income {
+    text-align: right;
+  }
+
+  .actionBtn > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+  }
+
+  .cancelBtn,
+  .approveBtn {
+    width: 5rem;
+    margin: 0 3px;
+    font-family: avenirs;
+    font-size: 0.65rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .cancelBtn {
+    background: #ff0742;
+  }
+
+  .approveBtn {
+    background: #04b471;
+  }
+}

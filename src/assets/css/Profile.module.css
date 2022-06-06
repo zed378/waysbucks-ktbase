@@ -1,0 +1,1894 @@
+.profileBody {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 250px 100px 250px;
+}
+
+.profileContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.profileDesc,
+.historyTransaction {
+  width: 50%;
+}
+
+.profileDesc > h1 {
+  color: #bd0707;
+}
+
+.contentWrap {
+  display: flex;
+  gap: 30px;
+}
+
+.profileImg {
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  height: 375px;
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.profileImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50%;
+}
+
+.profileData {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+div > h3 {
+  margin: 0 0 10px 0;
+  color: #613d2b;
+  font-size: 1.5rem;
+}
+
+div > p {
+  margin: 0%;
+  font-family: avenirs;
+  font-size: 1.25rem;
+}
+
+.profileData > button {
+  padding: 0.5rem 0;
+  width: 100%;
+  font-family: avenir;
+  font-size: 1rem;
+  background: #bd0707;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+
+.historyTransaction > h1 {
+  color: #613d2b;
+}
+
+.transactionCard {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 20px 25px;
+  background: #f6dada;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.detilTrans {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.itemTrans {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.imgProduct {
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.imgProduct > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50%;
+}
+
+.itemDesc {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemDesc > h4 {
+  margin: 0 0 10px;
+  color: #bd0707;
+}
+
+.datePurchase {
+  font-size: 0.75rem;
+  color: #bd0707;
+  margin-bottom: 10px;
+}
+
+.topping {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #bd0707;
+  margin-bottom: 10px;
+}
+
+.productPrice {
+  font-size: 0.9rem;
+  font-weight: 900;
+  color: #613d2b;
+}
+
+.detilTrans::after {
+  content: "_______________________________";
+  color: #bd0707;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.productStamp {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.bucksLogo,
+.qrCode {
+  width: 12.5%;
+}
+
+.stats {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productStatus {
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  font-family: avenir;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.totalPurchase {
+  text-align: center;
+  font-size: 0.75rem;
+  font-family: avenir;
+  color: #974a4a;
+}
+
+@media only screen and (max-width: 1440px) {
+  .profileBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 100px 100px 100px;
+  }
+
+  .profileContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .profileDesc {
+    width: 45%;
+  }
+
+  .profileDesc > h1 {
+    color: #bd0707;
+  }
+
+  .contentWrap {
+    display: flex;
+    gap: 20px;
+  }
+
+  .profileImg {
+    display: inline-block;
+    position: relative;
+    width: 45%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .profileImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .profileData {
+    width: 47.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  div > h3 {
+    margin: 0 0 10px 0;
+    color: #613d2b;
+    font-size: 1.35rem;
+  }
+
+  div > p {
+    margin: 0%;
+    font-family: avenirs;
+    font-size: 1.15rem;
+  }
+
+  .profileData > button {
+    padding: 0.5rem 0;
+    width: 100%;
+    font-family: avenir;
+    font-size: 1rem;
+    background: #bd0707;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .historyTransaction {
+    width: 55%;
+  }
+
+  .historyTransaction > h1 {
+    color: #613d2b;
+  }
+
+  .transactionCard {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    background: #f6dada;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .detilTrans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .itemTrans {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .imgProduct {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .imgProduct > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .itemDesc {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemDesc > h4 {
+    margin: 0 0 10px;
+    color: #bd0707;
+  }
+
+  .datePurchase {
+    font-size: 0.75rem;
+    color: #bd0707;
+    margin-bottom: 10px;
+  }
+
+  .topping {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #bd0707;
+    margin-bottom: 10px;
+  }
+
+  .productPrice {
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: #613d2b;
+  }
+
+  .detilTrans::after {
+    content: "_______________________________";
+    color: #bd0707;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .productStamp {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .bucksLogo,
+  .qrCode {
+    width: 12.5%;
+  }
+
+  .stats {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .productStatus {
+    background: rgba(0, 209, 255, 0.2);
+    color: #00d1ff;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-family: avenir;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .totalPurchase {
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: avenir;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .profileBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 75px 100px 75 px;
+  }
+
+  .profileContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .profileDesc {
+    width: 40%;
+  }
+
+  .profileDesc > h1 {
+    color: #bd0707;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .contentWrap {
+    display: flex;
+    gap: 20px;
+  }
+
+  .profileImg {
+    display: inline-block;
+    position: relative;
+    width: 45%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .profileImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .profileData {
+    width: 47.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  div > h3 {
+    margin: 0 0 10px 0;
+    color: #613d2b;
+    font-size: 1.35rem;
+  }
+
+  div > p {
+    margin: 0%;
+    font-family: avenirs;
+    font-size: 1rem;
+  }
+
+  .profileData > button {
+    padding: 0.5rem 0;
+    width: 100%;
+    font-family: avenir;
+    font-size: 1rem;
+    background: #bd0707;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .historyTransaction {
+    width: 60%;
+  }
+
+  .historyTransaction > h1 {
+    color: #613d2b;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .transactionCard {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    background: #f6dada;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .detilTrans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .itemTrans {
+    width: 100%;
+    gap: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .imgProduct {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .imgProduct > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .itemDesc {
+    width: 77.5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemDesc > h4 {
+    margin: 0 0 10px;
+    color: #bd0707;
+  }
+
+  .datePurchase {
+    font-size: 0.75rem;
+    color: #bd0707;
+    margin-bottom: 10px;
+  }
+
+  .topping {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #bd0707;
+    margin-bottom: 10px;
+  }
+
+  .productPrice {
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: #613d2b;
+  }
+
+  .detilTrans::after {
+    content: "_______________________________";
+    color: #bd0707;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .productStamp {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .bucksLogo,
+  .qrCode {
+    width: 12.5%;
+  }
+
+  .stats {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .productStatus {
+    background: rgba(0, 209, 255, 0.2);
+    color: #00d1ff;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-family: avenir;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .totalPurchase {
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: avenir;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .profileBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 75px 100px 75 px;
+  }
+
+  .profileContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .profileDesc {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .profileDesc > h1 {
+    color: #bd0707;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .contentWrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profileImg {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .profileImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .profileData {
+    width: 57.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  div > h3 {
+    margin: 0 0 10px 0;
+    color: #613d2b;
+    font-size: 1.75rem;
+  }
+
+  div > p {
+    margin: 0;
+    font-family: avenirs;
+    font-size: 1.5rem;
+  }
+
+  .profileData > button {
+    padding: 0.5rem 0;
+    width: 100%;
+    font-family: avenir;
+    font-size: 1.15rem;
+    background: #bd0707;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .historyTransaction {
+    width: 100%;
+  }
+
+  .historyTransaction > h1 {
+    color: #613d2b;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .transactionCard {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    background: #f6dada;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .detilTrans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .itemTrans {
+    width: 100%;
+    gap: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .imgProduct {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .imgProduct > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .itemDesc {
+    width: 77.5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemDesc > h4 {
+    margin: 0 0 10px;
+    color: #bd0707;
+  }
+
+  .datePurchase {
+    font-size: 0.75rem;
+    color: #bd0707;
+    margin-bottom: 10px;
+  }
+
+  .topping {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #bd0707;
+    margin-bottom: 10px;
+  }
+
+  .productPrice {
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: #613d2b;
+  }
+
+  .detilTrans::after {
+    content: "_______________________________";
+    color: #bd0707;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .productStamp {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .bucksLogo,
+  .qrCode {
+    width: 12.5%;
+  }
+
+  .stats {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .productStatus {
+    background: rgba(0, 209, 255, 0.2);
+    color: #00d1ff;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-family: avenir;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .totalPurchase {
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: avenir;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .profileBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 50px 100px 50px;
+  }
+
+  .profileContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .profileDesc {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .profileDesc > h1 {
+    color: #bd0707;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .contentWrap {
+    display: flex;
+    gap: 20px;
+  }
+
+  .profileImg {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .profileImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .profileData {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  div > h3 {
+    margin: 0 0 10px 0;
+    color: #613d2b;
+    font-size: 1.5rem;
+  }
+
+  div > p {
+    margin: 0;
+    font-family: avenirs;
+    font-size: 1.25rem;
+  }
+
+  .historyTransaction {
+    width: 100%;
+  }
+
+  .historyTransaction > h1 {
+    color: #613d2b;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .transactionCard {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    background: #f6dada;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .detilTrans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .itemTrans {
+    width: 100%;
+    gap: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .imgProduct {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .imgProduct > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .itemDesc {
+    width: 77.5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemDesc > h4 {
+    margin: 0 0 10px;
+    color: #bd0707;
+  }
+
+  .datePurchase {
+    font-size: 0.75rem;
+    color: #bd0707;
+    margin-bottom: 10px;
+  }
+
+  .topping {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #bd0707;
+    margin-bottom: 10px;
+  }
+
+  .productPrice {
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: #613d2b;
+  }
+
+  .detilTrans::after {
+    content: "_______________________________";
+    color: #bd0707;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .productStamp {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .bucksLogo,
+  .qrCode {
+    width: 12.5%;
+  }
+
+  .stats {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .productStatus {
+    background: rgba(0, 209, 255, 0.2);
+    color: #00d1ff;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-family: avenir;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .totalPurchase {
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: avenir;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profileBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 50px 100px 50px;
+  }
+
+  .profileContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .profileDesc {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .profileDesc > h1 {
+    color: #bd0707;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .contentWrap {
+    display: flex;
+    gap: 20px;
+  }
+
+  .profileImg {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .profileImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .profileData {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  div > h3 {
+    margin: 0 0 10px 0;
+    color: #613d2b;
+    font-size: 1.25rem;
+  }
+
+  div > p {
+    margin: 0;
+    font-family: avenirs;
+    font-size: 1rem;
+  }
+
+  .historyTransaction {
+    width: 100%;
+  }
+
+  .historyTransaction > h1 {
+    color: #613d2b;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .transactionCard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    background: #f6dada;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .detilTrans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .itemTrans {
+    width: 100%;
+    gap: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .imgProduct {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .imgProduct > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .itemDesc {
+    width: 77.5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemDesc > h4 {
+    margin: 0;
+    color: #bd0707;
+  }
+
+  .datePurchase {
+    font-size: 0.75rem;
+    color: #bd0707;
+    margin: 0;
+  }
+
+  .topping {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #bd0707;
+    margin-bottom: 5px;
+  }
+
+  .productPrice {
+    font-size: 0.85rem;
+    font-weight: 900;
+    color: #613d2b;
+  }
+
+  .detilTrans::after {
+    content: "_______________________________";
+    color: #bd0707;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .productStamp {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .bucksLogo,
+  .qrCode {
+    width: 12.5%;
+  }
+
+  .stats {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .productStatus {
+    background: rgba(0, 209, 255, 0.2);
+    color: #00d1ff;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-family: avenir;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .totalPurchase {
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: avenir;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .profileBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 35px 100px 35px;
+  }
+
+  .profileContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .profileDesc {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .profileDesc > h1 {
+    color: #bd0707;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .contentWrap {
+    display: flex;
+    gap: 20px;
+  }
+
+  .profileImg {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .profileImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .profileData {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .profileData > button {
+    padding: 0.5rem 0;
+    width: 100%;
+    font-family: avenir;
+    font-size: 1rem;
+    background: #bd0707;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+  }
+
+  div > h3 {
+    margin: 0 0 10px 0;
+    color: #613d2b;
+    font-size: 1.25rem;
+  }
+
+  div > p {
+    margin: 0;
+    font-family: avenirs;
+    font-size: 1rem;
+  }
+
+  .historyTransaction {
+    width: 100%;
+  }
+
+  .historyTransaction > h1 {
+    color: #613d2b;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .transactionCard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    background: #f6dada;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .detilTrans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 1rem;
+  }
+
+  .itemTrans {
+    width: 100%;
+    gap: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .imgProduct {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 125px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .imgProduct > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .itemDesc {
+    width: 77.5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemDesc > h4 {
+    margin: 0;
+    color: #bd0707;
+  }
+
+  .datePurchase {
+    font-size: 0.75rem;
+    color: #bd0707;
+    margin: 0;
+  }
+
+  .topping {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #bd0707;
+    margin-bottom: 5px;
+  }
+
+  .productPrice {
+    font-size: 0.85rem;
+    font-weight: 900;
+    color: #613d2b;
+  }
+
+  .detilTrans::after {
+    content: "_______________________________";
+    color: #bd0707;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .productStamp {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .bucksLogo,
+  .qrCode {
+    width: 12.5%;
+  }
+
+  .stats {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .productStatus {
+    background: rgba(0, 209, 255, 0.2);
+    color: #00d1ff;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-family: avenir;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .totalPurchase {
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: avenir;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .profileBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 25px 100px 25px;
+  }
+
+  .profileContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .profileDesc {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .profileDesc > h1 {
+    color: #bd0707;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .contentWrap {
+    display: flex;
+    gap: 20px;
+  }
+
+  .profileImg {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .profileImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .profileData {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  div > h3 {
+    margin: 0 0 10px 0;
+    color: #613d2b;
+    font-size: 1.25rem;
+  }
+
+  div > p {
+    margin: 0;
+    font-family: avenirs;
+    font-size: 1rem;
+  }
+
+  .historyTransaction {
+    width: 100%;
+  }
+
+  .historyTransaction > h1 {
+    color: #613d2b;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .transactionCard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #f6dada;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .detilTrans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 1rem;
+  }
+
+  .itemTrans {
+    width: 100%;
+    gap: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .imgProduct {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 125px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .imgProduct > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .itemDesc {
+    width: 77.5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemDesc > h4 {
+    margin: 0;
+    color: #bd0707;
+  }
+
+  .datePurchase {
+    font-size: 0.75rem;
+    color: #bd0707;
+    margin: 0;
+  }
+
+  .topping {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #bd0707;
+    margin-bottom: 5px;
+  }
+
+  .productPrice {
+    font-size: 0.85rem;
+    font-weight: 900;
+    color: #613d2b;
+  }
+
+  .detilTrans::after {
+    content: "_______________________________";
+    color: #bd0707;
+    text-align: center;
+    margin-bottom: 0.25rem;
+  }
+
+  .productStamp {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .bucksLogo,
+  .qrCode {
+    width: 12.5%;
+  }
+
+  .stats {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .productStatus {
+    background: rgba(0, 209, 255, 0.2);
+    color: #00d1ff;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-family: avenir;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .totalPurchase {
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: avenir;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .profileBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 25px 100px 25px;
+  }
+
+  .profileContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .profileDesc {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .profileDesc > h1 {
+    color: #bd0707;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .contentWrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .profileImg {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .profileImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .profileData {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .profileData > button {
+    width: 100%;
+  }
+
+  div > h3 {
+    margin: 0 0 10px 0;
+    color: #613d2b;
+    font-size: 1.25rem;
+  }
+
+  div > p {
+    margin: 0;
+    font-family: avenirs;
+    font-size: 1rem;
+  }
+
+  .historyTransaction {
+    width: 100%;
+  }
+
+  .historyTransaction > h1 {
+    color: #613d2b;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .transactionCard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 15px;
+    background: #f6dada;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .detilTrans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .itemTrans {
+    width: 100%;
+    gap: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .imgProduct {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .imgProduct > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+
+  .itemDesc {
+    width: 77.5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemDesc > h4 {
+    margin: 0;
+    color: #bd0707;
+  }
+
+  .datePurchase {
+    font-size: 0.75rem;
+    color: #bd0707;
+    margin: 0;
+  }
+
+  .topping {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #bd0707;
+    margin-bottom: 5px;
+  }
+
+  .productPrice {
+    font-size: 0.85rem;
+    font-weight: 900;
+    color: #613d2b;
+  }
+
+  .detilTrans::after {
+    content: "_______________________________";
+    color: #bd0707;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .productStamp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .bucksLogo {
+    width: 15%;
+  }
+
+  .qrCode {
+    width: 20%;
+  }
+
+  .stats {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .productStatus {
+    background: rgba(0, 209, 255, 0.2);
+    color: #00d1ff;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-family: avenir;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .totalPurchase {
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: avenir;
+    color: #974a4a;
+  }
+}

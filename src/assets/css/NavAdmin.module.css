@@ -1,0 +1,406 @@
+.navContainer {
+  width: 100%;
+  height: 17.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 150px;
+}
+
+.navContainer > img {
+  height: 125px;
+  cursor: pointer;
+}
+
+.profileWrapper {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.chats {
+  height: 50px;
+  cursor: pointer;
+}
+
+.imgWrapper {
+  display: inline-block;
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  border: solid 3px #bd0707;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.imgWrapper > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50%;
+}
+
+@media only screen and (max-width: 1440px) {
+  .navContainer {
+    width: 100%;
+    height: 17.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 75px;
+  }
+
+  .navContainer > img {
+    height: 100px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .chats {
+    height: 45px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .navContainer {
+    width: 100%;
+    height: 17.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 50px;
+  }
+
+  .navContainer > img {
+    height: 100px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .chats {
+    height: 45px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .navContainer {
+    width: 100%;
+    height: 17.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 75px;
+  }
+
+  .navContainer > img {
+    height: 75px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .chats {
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navContainer {
+    width: 100%;
+    height: 17.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 50px;
+  }
+
+  .navContainer > img {
+    height: 75px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .chats {
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navContainer {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 50px;
+  }
+
+  .navContainer > img {
+    height: 65px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .chats {
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navContainer {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 35px;
+  }
+
+  .navContainer > img {
+    height: 65px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .chats {
+    height: 35px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navContainer {
+    width: 100%;
+    height: 12.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 35px;
+  }
+
+  .navContainer > img {
+    height: 65px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .chats {
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .navContainer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 35px;
+  }
+
+  .navContainer > img {
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .imgWrapper {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border: solid 3px #bd0707;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .imgWrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
